@@ -1,0 +1,1 @@
+https://project-trial1-f40f0-default-rtdb.asia-southeast1.firebasedatabase.app/

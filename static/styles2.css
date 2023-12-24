@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: none; */
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(232, 148, 225);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20vh;
+    margin-top: 8vh;
+}
+fieldset{
+    margin: auto;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
+}
+.first-form{
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 3vh;
+}
+.first-form input{
+    height:4vh;
+    width: 30vh;
+    background-color: white;
+}
+.submit input{
+    font-size: 2vh;
+    height:4vh;
+    width: 15vh;
+    padding: 2px;
+    background-color: white;
+}
+.table{
+    margin-right: 10vh;
+    margin-left: 8vh;
+    font-size: 2.5vh;
+}
+th , td{
+    padding: 2px;
+}
+legend{
+    font-size: 3vh;
+    margin-left: 5vh;
+}
+.submit2{
+    text-align: center;
+    margin: 10vh 0 8vh 0;
+}
+.submit2 input{
+    background-color: white;
+    height: 7vh;
+    width: 15vh;
+    font-size: 2vh;
+}
+

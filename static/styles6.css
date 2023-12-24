@@ -1,0 +1,56 @@
+body{
+    background-image: url('space2.jpg');
+    /* background-size: 100vw; */
+    /* background-position: 260%; */
+}
+.form{
+    background-color: rgba(209, 115, 115, 0.696);
+    padding: 10vh 0 10vh 0;
+    margin: auto;
+    max-width: 30%;
+    margin-top: 25vh;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input input:first-child{
+    height: 4vh;
+    width: 40vh;
+    font-size: 2vh;
+}
+.input input:last-child{
+    height: 4vh;
+    width:40vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    
+}
+.button{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    
+}
+.button button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 20px;
+}
+.button button:first-child{
+    margin-right: 2vh;
+    border: none;
+    border-radius: 20px;
+}
+h3{
+    overflow: hidden;
+    margin-top: -7vh;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/styles2.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Search your Grocery</legend>
+        <div class="container">
+            <div class="first-form">
+    <form action="/find_product" method="POST">
+        <label for="serial_number">Batch Number :</label>
+        <input type="text" name="serial_number" list="options">
+            <datalist id="options">
+                <option value="code1">
+                <option value="code2">
+                <option value="code2">
+            </datalist><br><br>
+        
+        <label for="product_name2">Product name :</label>
+        <input type="text" name="product_name2"><br><br>
+
+        <div class="submit"><input type="submit" value="Search"></div>
+        
+</form>
+</div>
+<div class="table">
+<table border="1">
+    <tr>
+        <th>Manufacturing Location</th>
+        <th>Product Name</th>
+        <th>Product Price </th>
+        <th>In Stock Quantity</th>
+        <th>Manufacturing Year</th>
+        <th>Batch Number</th>
+    </tr>
+    {% for row in result %}
+    <tr>
+        {% for item in row %}
+        <td>{{ item }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</div>
+</div>
+<form action="/index" method="POST">
+    <div class="submit2"><input type="submit" value="Back"></div>
+</form>
+</fieldset>
+</body>
+</html>

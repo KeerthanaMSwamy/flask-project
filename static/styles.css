@@ -1,0 +1,76 @@
+body{
+  background-image: url('space1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.buttons a:first-child{
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(86, 86, 218);
+  font-size: 3vh;
+  box-shadow: 5px 5px 5px rgba(142, 66, 66, 0.3);
+  margin-right: 10vh;
+  padding: 3vw 6vh 3vw 6vh;
+  border-radius: 30px;
+  height: 40%;
+}
+.buttons a:nth-child(2){
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(131, 131, 193);;
+  font-size: 3vh;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+  margin-right: 10vh;
+  padding: 3vw 9vh 3vw 9vh;
+  border-radius: 30px;
+  height: 30%;
+}
+
+.buttons a:nth-child(3){
+  border: 2px solid black;
+  color: white;
+  background-color:rgb(86, 86, 218);
+  font-size: 3vh;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+  margin-right: 10vh;
+  padding: 3vw 9vh 3vw 9vh;
+  border-radius: 30px;
+  height: 30%;
+}
+.buttons1 a:first-child{
+  border: 2px solid black;
+  color: white;
+  background-color:rgb(131, 131, 193);;
+  font-size: 3vh;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+  margin-right: 10vh;
+  padding: 3vw 9vh 3vw 9vh;
+  border-radius: 30px;
+  height: 30%;
+}
+.buttons, .buttons1{
+  margin-top:10vh ;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.buttons1{
+  margin-top: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.buttons1 a:nth-child(2){
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(86, 86, 218);
+  font-size: 3vh;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+  margin-right: 10vh;
+  padding: 3vw 9vh 3vw 9vh;
+  border-radius: 30px;
+  height: 30%;
+}
